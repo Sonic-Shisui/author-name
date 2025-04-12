@@ -1,0 +1,24 @@
+{
+  "name": "command-validation-api",
+  "version": "1.0.0",
+  "description": "API pour valider et exécuter des commandes tout en empêchant les modifications non autorisées.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",          // Commande pour démarrer le serveur
+    "dev": "nodemon server.js"          // Commande pour démarrer le serveur avec nodemon
+  },
+  "keywords": [
+    "API",
+    "command",
+    "validation",
+    "express"
+  ],
+  "author": "ミ★𝐒𝐎𝐍𝐈𝐂✄𝐄𝐗𝐄 3.0★彡",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"                // Dépendance principale pour le serveur
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"                // Outil pour recharger automatiquement le serveur en développement
+  }
+    }
