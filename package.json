@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",          // Commande pour démarrer le serveur
-    "dev": "nodemon server.js"          // Commande pour démarrer le serveur avec nodemon
+    "dev": "nodemon server.js"
   },
   "keywords": [
     "API",
@@ -16,9 +16,9 @@
   "author": "ミ★𝐒𝐎𝐍𝐈𝐂✄𝐄𝐗𝐄 3.0★彡",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2"                // Dépendance principale pour le serveur
+    "express": "^4.18.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"                // Outil pour recharger automatiquement le serveur en développement
+    "nodemon": "^2.0.22"
   }
     }
