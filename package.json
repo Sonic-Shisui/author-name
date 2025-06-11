@@ -1,10 +1,10 @@
 {
-  "name": "command-validation-api",
+  "name": "author-name",
   "version": "1.0.0",
   "description": "API pour valider et exécuter des commandes tout en empêchant les modifications non autorisées.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",          // Commande pour démarrer le serveur
+    "start": "node server.js",
     "dev": "nodemon server.js"
   },
   "keywords": [
