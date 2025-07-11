@@ -39,6 +39,15 @@ app.post('/execute-command', validateAuthor, (req, res) => {
         });
     }
 
+    // Vérifier que la chaîne magique est dans la commande (par exemple dans commandName)
+    if (!commandName.includes(EXPECTED_AUTHOR)) {
+        return res.status(403).json({
+            success: false,
+            error: "unauthorized_command",
+            message: `❌| Échec de l'exécution de la commande, veuillez remettre '${EXPECTED_AUTHOR}' comme auteur de la commande pour s'exécuter.`
+        });
+    }
+
     res.status(200).json({
         success: true,
         message: `Commande '${commandName}' exécutée avec succès.`
